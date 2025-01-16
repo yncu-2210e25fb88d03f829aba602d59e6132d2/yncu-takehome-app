@@ -53,11 +53,11 @@ Please don't cheat. We will know. It wastes both of our time. We're using both e
 
 Seriously... just don't.
 
-### 2.2.1. What does constitute as cheating?
+### 2.2.1. What DOES constitute as cheating?
 
 You should already know this. If you have any questions, please reach out. I'd rather you ask then have your submission thrown out for cheating.
 
-### 2.2.2. What does NOT constitute as cheating?
+### 2.2.2. What DOES NOT constitute as cheating?
 
 These tools are OKAY to use.
 
