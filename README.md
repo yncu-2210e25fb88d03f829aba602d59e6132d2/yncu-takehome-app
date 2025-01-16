@@ -67,7 +67,7 @@ Leverage this stack to build your application. Reasons as to why you're required
 - Show us that you can build scalable, well-structured data models! (THIS IS REALLY IMPORTANT!)
 - As our applications grow, our data model will most likely as well!
 
-10 Authentication
+10. Authentication
 
 - Required.
 - It doesn't matter which type of authentication you use (Google, Microsoft, Email+Pass, etc.)
