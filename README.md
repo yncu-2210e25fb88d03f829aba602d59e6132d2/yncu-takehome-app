@@ -47,7 +47,7 @@ You have a few options.
 - Build any implementation of a dashboard you want.
 - IMPORTANT: Application **MUST** be a some implementation of a **dashboard**.
 
-## 2.2. Plagiarism & Code Re-use
+## 2.2. Cheating (not fun)
 
 Please don't cheat. We will know. It wastes both of our time. We're using both external and internal tools to evaluate submissions.
 
