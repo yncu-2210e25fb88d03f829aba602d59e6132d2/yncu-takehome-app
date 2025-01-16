@@ -104,3 +104,5 @@ Let me know.
 - Follow common paradigms + structures (including file/folder, functional programming, etc.) when developing full-stack applications.
 - Work together!
 - And have fun!!!
+
+If you have any questions, shoot me a message!
