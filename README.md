@@ -13,6 +13,19 @@ We're here to help, so please reach out if you have any questions!
 
 You can get started by reviewing the content below.
 
+## 1.1. More Info
+
+The purpose of this is to evaluate:
+1. Your comfortibility with the stack we typically use.
+2. Your comfortibility with working in a team to collaboratively develop an application.
+3. Your comfortibility with building larger applications.
+4. Understanding how you approach a problem -- from design to deployment.
+5. Understanding how you approach learning new technologies.
+
+With that being said, If you don't already have experience with the stack provided, THAT IS OKAY!
+
+Try your best, explain your thoughts/ideas, leverage diagraming tools to better emphasize what you're trying to accomplish, etc.
+
 # 2. Application
 
 So what will you actually be building? And with which technologies/stack?
@@ -86,7 +99,7 @@ Leverage this stack to build your application. Reasons as to why you're required
 10. Authentication
 
 - Required.
-- It doesn't matter which type of authentication you use (Google, Microsoft, Email+Pass, etc.)
+- It doesn't matter which type of authentication you use (Google, Microsoft, Email+Pass, etc. However Microsoft is preferred).
 
 11. Documentation
 
@@ -96,6 +109,11 @@ Leverage this stack to build your application. Reasons as to why you're required
 - IMPORTANT: Explain how to run your application with **ordered** steps!
 - IMPORTANT: Elaborate on any other technologies that you used.
 - IMPORTANT: Showcase your application (with either a video or screenshots)! If the application doesn't run on our end, we'll have a good idea of what it looks like.
+
+12. Deployment
+
+- Optional.
+- Deploy to a cloud service provider (Azure, AWS, etc. However Azure is preferred).
 
 ### 2.2.1. Why this stack?
 
@@ -125,8 +143,5 @@ Let me know.
 - Follow common paradigms + structures (including file/folder, functional programming, etc.) when developing full-stack applications.
 - Work together!
 - And have fun!!!
-
-**Important**
-If you don't already have experience with the stack provided, THAT IS OKAY! We also want to see how you handle working with new technologies!
 
 If you have any questions, shoot me a message!
