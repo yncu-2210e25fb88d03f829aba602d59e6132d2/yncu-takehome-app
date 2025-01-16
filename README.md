@@ -47,7 +47,23 @@ You have a few options.
 - Build any implementation of a dashboard you want.
 - IMPORTANT: Application **MUST** be a some implementation of a **dashboard**.
 
-## 2.2. Stack & Requirements
+## 2.2. Plagiarism & Code Re-use
+
+Please don't cheat. We will know. It wastes both of our time. We're using both external and internal tools to evaluate submissions.
+
+Seriously... just don't.
+
+### 2.2.1. What does NOT constitute as cheating?
+
+These tools are OKAY to use.
+
+- Using GitHub Copilot
+- Using LLMs (ChatGPT, Claude, etc.) to write documentation/perform laborious tasks.
+- Using code from the internet (Please just cite where you got the code from if it's > 10 lines. This does not hurt your submission in any way!)
+- Using code from your previous projects (Please just document that you've used code from a previous project. This does not hurt your submission in any way!)
+- Using external libraries not provided in the [2.3. Stack & Requirements]() section!
+
+## 2.3. Stack & Requirements
 
 Leverage this stack to build your application. Reasons as to why you're required to use this stack are defined below.
 
