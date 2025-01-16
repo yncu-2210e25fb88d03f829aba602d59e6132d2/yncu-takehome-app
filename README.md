@@ -4,7 +4,15 @@
 
 # 2. Application
 
+So what will you actually be building? And with which technologies/stack?
+
 ## 2.1. Product
+
+You have a few options.
+
+1. Task Management Dashboard
+
+- More information + flowchart can be found [here](https://app.eraser.io/workspace/cmNuIVpAo1hWjtxs77BM?origin=share)
 
 ## 2.2. Stack
 
@@ -58,6 +66,11 @@ Leverage this stack to build your application. Reasons as to why you're required
 - Required.
 - Show us that you can build scalable, well-structured data models! (THIS IS REALLY IMPORTANT!)
 - As our applications grow, our data model will most likely as well!
+
+10 Authentication
+
+- Required.
+- It doesn't matter which type of authentication you use (Google, Microsoft, Email+Pass, etc.)
 
 ### 2.2.1. Why this stack?
 
