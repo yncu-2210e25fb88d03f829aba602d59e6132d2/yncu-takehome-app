@@ -13,7 +13,7 @@ We're here to help, so please reach out if you have any questions!
 
 You can get started by reviewing the content below.
 
-## 1.1. More Info
+## 1.1. Purpose & Evaluation
 
 The purpose of this is to evaluate:
 1. Your comfortibility with the stack we typically use.
@@ -22,7 +22,7 @@ The purpose of this is to evaluate:
 4. Understanding how you approach a problem -- from design to deployment.
 5. Understanding how you approach learning new technologies.
 
-With that being said, If you don't already have experience with the stack provided, THAT IS OKAY!
+If you don't already have experience with the stack provided, THAT IS OKAY!
 
 Try your best, explain your thoughts/ideas, leverage diagraming tools to better emphasize what you're trying to accomplish, etc.
 
