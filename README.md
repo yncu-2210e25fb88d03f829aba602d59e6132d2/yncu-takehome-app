@@ -103,6 +103,7 @@ I'll create a GitHub organization specific to this take-home for you all to work
 Some things you may want to (but are not required to) consider leveraging:
 - Feature branches
 - Dev/Prod branches
+- [Semantic commit messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
 
 Let me know.
 
