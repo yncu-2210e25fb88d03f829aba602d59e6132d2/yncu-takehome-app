@@ -1,8 +1,16 @@
-# YNCU Takehome App
+# YNCU Takehome Application
 
 ![image](https://github.com/user-attachments/assets/d26894ad-dc08-4ae3-aeaf-89ba3ce899df)
 
 # 1. Intro
+
+Welcome! We're excited that you're interested in YNCU and are looking to get started with the application process.
+
+The YNCU Takehome Application is used to guarantee your success here.
+
+We're here to help, so please reach out if you have any questions!
+
+You can get started by reviewing the content below.
 
 # 2. Application
 
