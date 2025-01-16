@@ -44,7 +44,9 @@ Leverage this stack to build your application. Reasons as to why you're required
 7. [Docker](https://www.docker.com/)
 
 - Required.
-- Use Docker to spin up a local Azure SQL Edge database.
+- Spin up a local Azure SQL Edge database (required).
+- Spin up a local development environment (optional).
+- How optimized can you make the container? How light-weight can you make the image size? (optional).
 
 8. [Azure SQL Edge](https://azure.microsoft.com/en-us/products/azure-sql/edge)
 
