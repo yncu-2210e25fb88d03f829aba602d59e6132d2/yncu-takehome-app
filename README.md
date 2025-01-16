@@ -1,5 +1,5 @@
-# Welcome
-Welcome, to the YNCU Takehome Application!
+# YNCU Takehome Application
+Welcome, we're excited for you to join us!
 
 ![image](https://github.com/user-attachments/assets/d26894ad-dc08-4ae3-aeaf-89ba3ce899df)
 
