@@ -8,6 +8,8 @@
 
 ## 2.2. Stack
 
+Leverage this stack to build your application. Reasons as to why you're required to use this stack are defined below.
+
 1. [Turborepo](https://turbo.build/)
 
 - Required.
