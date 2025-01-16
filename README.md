@@ -91,8 +91,8 @@ Leverage this stack to build your application. Reasons as to why you're required
 11. Documentation
 
 - Required.
-- Include any flowcharts here.
 - Explain what the application does, how it works, etc.
+- Include any other information/explanations (including flowcharts) here.
 - IMPORTANT: Explain how to run your application with **ordered** steps!
 - IMPORTANT: Elaborate on any other technologies that you used.
 - IMPORTANT: Showcase your application (with either a video or screenshots)! If the application doesn't run on our end, we'll have a good idea of what it looks like.
