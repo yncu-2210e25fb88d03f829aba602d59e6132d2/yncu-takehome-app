@@ -43,7 +43,7 @@ You have a few options.
 - More information + flowchart can be found [here](https://app.eraser.io/workspace/cmNuIVpAo1hWjtxs77BM?origin=share)
 
 
-## 2.2. Stack + Requirements
+## 2.2. Stack & Requirements
 
 Leverage this stack to build your application. Reasons as to why you're required to use this stack are defined below.
 
