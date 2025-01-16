@@ -141,7 +141,7 @@ Leverage this stack to build your application. Reasons as to why you're required
 - Optional.
 - Deploy to a cloud service provider (Azure, AWS, etc. However Azure is preferred).
 
-### 2.2.1. Why this stack?
+### 2.3.1. Why this stack?
 
 - We're using this stack for the majority of our future applications now.
 - We're using this stack for the commercial loan origination software (CLOS) which you'll be working on.
