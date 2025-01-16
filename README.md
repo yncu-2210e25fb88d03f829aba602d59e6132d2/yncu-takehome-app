@@ -63,7 +63,8 @@ Leverage this stack to build your application. Reasons as to why you're required
 
 - We're using this stack for the majority of our future applications now.
 - We're using this stack for the commercial loan origination software (CLOS) which you'll be working on.
-- These are all modern technologies used in modern fullstack development. Even just having these under your belt is vital.
+- We're using this stack for the internal tools software (YNCU Tools) which you'll be working on.
+- These are all modern technologies used in modern fullstack development.
 - Our applications have 1,000s to 100,000s of lines of code. This stack helps us scale and handle this.
 
 # 3. Working Together
