@@ -42,6 +42,10 @@ You have a few options.
 
 - More information + flowchart can be found [here](https://app.eraser.io/workspace/cmNuIVpAo1hWjtxs77BM?origin=share)
 
+3. Surprise us!
+
+- Build any implementation of a dashboard you want.
+- IMPORTANT: Application **MUST** be a some implementation of a **dashboard**.
 
 ## 2.2. Stack & Requirements
 
