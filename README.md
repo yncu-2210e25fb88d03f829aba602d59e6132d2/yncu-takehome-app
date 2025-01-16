@@ -36,7 +36,7 @@ Leverage this stack to build your application. Reasons as to why you're required
 - Required.
 - Please try to use Tailwind CSS wherever possible. CSS or SCSS is allowed, but prioritize Tailwind.
 
-6. [shadcn](https://ui.shadcn.com/)
+6. [shadcn](https://ui.shadcn.com/) or [Next UI](https://nextui.org/)
 
 - Optional.
 - However, we use shadcn and using it will also speed up development.
