@@ -1,5 +1,7 @@
 # YNCU Takehome App
 
+![image](https://github.com/user-attachments/assets/d26894ad-dc08-4ae3-aeaf-89ba3ce899df)
+
 # 1. Intro
 
 # 2. Application
