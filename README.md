@@ -30,7 +30,7 @@ You have a few options.
 - More information + flowchart can be found [here](https://app.eraser.io/workspace/cmNuIVpAo1hWjtxs77BM?origin=share)
 
 
-## 2.2. Stack
+## 2.2. Stack + Requirements
 
 Leverage this stack to build your application. Reasons as to why you're required to use this stack are defined below.
 
@@ -88,6 +88,15 @@ Leverage this stack to build your application. Reasons as to why you're required
 - Required.
 - It doesn't matter which type of authentication you use (Google, Microsoft, Email+Pass, etc.)
 
+11. Documentation
+
+- Required.
+- Include any flowcharts here.
+- Explain what the application does, how it works, etc.
+- IMPORTANT: Explain how to run your application with **ordered** steps!
+- IMPORTANT: Elaborate on any other technologies that you used.
+- IMPORTANT: Showcase your application (with either a video or screenshots)! If the application doesn't run on our end, we'll have a good idea of what it looks like.
+
 ### 2.2.1. Why this stack?
 
 - We're using this stack for the majority of our future applications now.
@@ -116,5 +125,8 @@ Let me know.
 - Follow common paradigms + structures (including file/folder, functional programming, etc.) when developing full-stack applications.
 - Work together!
 - And have fun!!!
+
+**Important**
+If you don't already have experience with the stack provided, THAT IS OKAY! We also want to see how you handle working with new technologies!
 
 If you have any questions, shoot me a message!
