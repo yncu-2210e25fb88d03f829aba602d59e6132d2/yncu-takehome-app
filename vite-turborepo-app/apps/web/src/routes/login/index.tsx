@@ -51,36 +51,28 @@ function Index() {
   }
 
   return (
-    <div className="font-montserrat flex h-full min-h-screen w-screen flex-col items-center justify-start p-12 lg:flex-row lg:p-0">
-      <img
-        className="h-52 w-full max-w-[50%] overflow-hidden overflow-y-hidden rounded-md object-cover lg:h-full lg:min-h-screen lg:rounded-none"
-        src="/login.jpg"
-        alt="Login Page"
-      />
-
-      <div className="flex w-full flex-col items-center justify-center gap-8 p-12 sm:gap-10">
-        <div className="flex flex-col items-center justify-center gap-2">
-          <h2 className="text-center text-xl font-bold tracking-tight sm:text-2xl">
-            Welcome to YNCU
-          </h2>
-          <p className="text-muted-foreground text-center text-sm">
-            Please sign in to continue
-          </p>
-        </div>
-
-        <Button
-          onClick={handleSignIn}
-          className="bg-secondary-blue hover:bg-secondary-blue w-full max-w-60 hover:brightness-105 sm:max-w-80"
-        >
-          Sign in with Azure
-        </Button>
-
-        {error && (
-          <p className="text-destructive text-sm" data-testid="error-message">
-            {error}
-          </p>
-        )}
+    <div className="font-montserrat flex h-full min-h-screen w-screen flex-col items-center justify-center gap-6 p-12">
+      <div className="flex flex-col items-center justify-center gap-2">
+        <h2 className="text-center text-xl font-bold tracking-tight sm:text-2xl">
+          Welcome to YNCU
+        </h2>
+        <p className="text-muted-foreground text-center text-sm">
+          Please sign in to continue
+        </p>
       </div>
+
+      <Button
+        onClick={handleSignIn}
+        className="bg-secondary-blue hover:bg-secondary-blue w-full max-w-60 hover:brightness-105 sm:max-w-80"
+      >
+        Sign in with Azure
+      </Button>
+
+      {error && (
+        <p className="text-destructive text-sm" data-testid="error-message">
+          {error}
+        </p>
+      )}
     </div>
   );
 }

@@ -8,6 +8,7 @@
   },
   "exports": {
     "./index.js": "./dist/src/index.js",
+    "./index.ts": "./src/index.ts",
     "./zod.js": "./dist/src/zod.js",
     "./zod.ts": "./src/zod.ts"
   },
