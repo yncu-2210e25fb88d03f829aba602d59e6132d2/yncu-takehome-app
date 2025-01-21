@@ -115,9 +115,9 @@ Leverage this stack to build your application. Reasons as to why you're required
 - Spin up a local development environment (optional).
 - How optimized can you make the container? How light-weight can you make the image size? (optional).
 
-8. [Azure SQL Edge](https://azure.microsoft.com/en-us/products/azure-sql/edge)
+8. [Azure SQL Edge](https://azure.microsoft.com/en-us/products/azure-sql/edge) or [PostgreSQL](https://www.postgresql.org/)
 
-- Both `Dockerfile` and `docker-compose.yml` files are already set up for you.
+- A `Dockerfile` and `docker-compose.yml` for Azure SQL Edge are already set up for you.
 - Install Docker Desktop and follow the run instructions.
 
 9. [Prisma ORM](https://www.prisma.io/)
