@@ -12,14 +12,12 @@
     "@azure/msal-react": "2.0.22",
     "@azure/msal-browser": "3.21.0",
     "react": "^18.3.1",
-    "lodash": "^4.17.21",
-    "crypto-js": "4.2.0"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
     "@types/react": "18.3.4",
     "@types/lodash": "4.17.7",
-    "@types/crypto-js": "4.2.2",
     "@types/node": "22.5.1"
   }
 }
