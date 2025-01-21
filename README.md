@@ -1,4 +1,5 @@
 # YNCU Takehome Application
+
 Welcome, we're excited for you to join us!
 
 ![image](https://github.com/user-attachments/assets/d26894ad-dc08-4ae3-aeaf-89ba3ce899df)
@@ -16,6 +17,7 @@ You can get started by reviewing the content below.
 ## 1.1. Purpose & Evaluation
 
 The purpose of this is to evaluate:
+
 1. Your comfortibility with the stack we typically use.
 2. Your comfortibility with working in a team to collaboratively develop an application.
 3. Your comfortibility with building larger applications.
@@ -88,11 +90,13 @@ Leverage this stack to build your application. Reasons as to why you're required
 
 - Required.
 - However, the choice as to which one you use is up to you.
+- IMPORTANT: If you use Vite, it is VERY strongly suggested that you use [Tanstack Router](https://tanstack.com/) for routing.
 
 4. [Node + Express](https://expressjs.com/) or [tRPC](https://trpc.io/) or [Next.js Server Actions](https://nextjs.org/docs/app/building-your-application/data-fetching/server-actions-and-mutations)
 
 - Required.
 - However, the choice as to which one you use is up to you.
+- IMPORTANT: If you use Node + Express, it is VERY strongly suggested that you use [Tanstack Query](https://tanstack.com/) for backend queries/mutations.
 
 5. [Tailwind CSS](https://tailwindcss.com/)
 
@@ -154,6 +158,7 @@ Leverage this stack to build your application. Reasons as to why you're required
 I'll create a GitHub organization specific to this take-home for you all to work together on the application.
 
 Some things you may want to (but are not required to) consider leveraging:
+
 - Feature branches
 - Dev/Prod branches
 - [Semantic commit messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)

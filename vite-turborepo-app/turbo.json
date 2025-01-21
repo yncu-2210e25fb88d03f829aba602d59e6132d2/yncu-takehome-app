@@ -1,0 +1,55 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": [".env"],
+  "globalEnv": [
+    "NODE_ENV",
+
+    "EXPRESS_API_VERSION",
+    "EXPRESS_API_HOST_PORT",
+    "EXPRESS_API_HOST_IP",
+    "EXPRESS_API_PATH",
+    "EXPRESS_API_URL",
+    "EXPRESS_API_CORS_ALLOWED_ORIGINS",
+    "EXPRESS_API_CORS_SUPPORT_CREDENTIALS",
+
+    "MSAL_REDIRECT_URI",
+    "MSAL_CONFIG_AUTHORITY",
+    "MSAL_CONFIG_CLIENT_ID",
+    "MSAL_CONFIG_CLIENT_SECRET",
+
+    "MSSQL_DATABASE_URL"
+  ],
+  "tasks": {
+    "prisma:generate": {
+      "cache": false
+    },
+    "prisma:init": {
+      "dependsOn": ["^prisma:generate"],
+      "cache": false
+    },
+    "prisma:migrate": {
+      "dependsOn": ["^prisma:generate"],
+      "cache": false
+    },
+    "prisma:push": {
+      "cache": false
+    },
+    "build:package": {
+      "dependsOn": ["^prisma:migrate"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": ["dist/**"]
+    },
+    "build": {
+      "dependsOn": ["^build:package", "^build"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": ["dist/**"]
+    },
+    "dev": {
+      "dependsOn": ["^build:package"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {}
+  }
+}

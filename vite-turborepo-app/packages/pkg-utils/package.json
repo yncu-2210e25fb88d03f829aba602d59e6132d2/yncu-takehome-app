@@ -1,0 +1,22 @@
+{
+  "name": "@repo/pkg-utils",
+  "version": "0.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:package": "pnpm build"
+  },
+  "exports": {
+    "./index.js": "./dist/src/index.js",
+    "./zod.js": "./dist/src/zod.js",
+    "./zod.ts": "./src/zod.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@types/node": "22.5.1",
+    "typescript": "5.5.4"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vite-turborepo-app",
+  "private": true,
+  "packageManager": "pnpm@8.15.6",
+  "scripts": {
+    "dotenv": "dotenv -e .env",
+    "build": "pnpm dotenv -- turbo build --verbosity=2",
+    "build:packages": "pnpm dotenv -- turbo build:package --verbosity=2",
+    "build:web": "pnpm dotenv -- turbo build --filter=web --verbosity=2",
+    "dev": "pnpm dotenv -- turbo dev --verbosity=2",
+    "dev:web": "pnpm dotenv -- turbo dev --filter=web --verbosity=2",
+    "dev:api": "pnpm dotenv -- turbo dev --filter=api --verbosity=2",
+    "prisma:init": "pnpm dotenv -- turbo prisma:init --verbosity=2",
+    "prisma:generate": "pnpm dotenv -- turbo prisma:generate --verbosity=2",
+    "prisma:migrate": "pnpm dotenv -- turbo prisma:migrate --verbosity=2",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "dotenv-cli": "7.4.2",
+    "eslint": "^8.57.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "turbo": "^2.3.0"
+  }
+}

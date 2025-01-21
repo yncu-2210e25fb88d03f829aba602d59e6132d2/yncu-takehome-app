@@ -1,0 +1,25 @@
+{
+  "name": "@repo/react-hooks",
+  "version": "0.0.0",
+  "scripts": {},
+  "exports": {
+    "./useLocalStorage.ts": "./src/useLocalStorage.ts",
+    "./useSessionStorage.ts": "./src/useSessionStorage.ts",
+    "./useMsalAuth.ts": "./src/useMsalAuth.ts",
+    "./useWindowDimensions.ts": "./src/useWindowDimensions.ts"
+  },
+  "dependencies": {
+    "@azure/msal-react": "2.0.22",
+    "@azure/msal-browser": "3.21.0",
+    "react": "^18.3.1",
+    "lodash": "^4.17.21",
+    "crypto-js": "4.2.0"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@types/react": "18.3.4",
+    "@types/lodash": "4.17.7",
+    "@types/crypto-js": "4.2.2",
+    "@types/node": "22.5.1"
+  }
+}

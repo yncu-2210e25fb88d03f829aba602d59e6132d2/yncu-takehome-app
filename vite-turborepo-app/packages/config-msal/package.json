@@ -1,0 +1,8 @@
+{
+  "name": "@repo/msal-config",
+  "version": "0.0.0",
+  "main": "index.mjs",
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {}
+}

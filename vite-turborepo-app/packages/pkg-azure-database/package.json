@@ -1,0 +1,29 @@
+{
+  "name": "@repo/pkg-azure-database",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm prisma:generate && pnpm prisma:migrate && tsc",
+    "build:package": "pnpm build",
+    "prisma:init": "prisma migrate dev --name init",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate deploy",
+    "prisma:push": "prisma db push --skip-generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@repo/eslint-config": "workspace:*",
+    "@types/node": "22.5.1",
+    "prisma": "^5.18.0",
+    "typescript": "5.5.4"
+  },
+  "exports": {
+    "./zod.js": "./dist/src/zod.js",
+    "./zod.ts": "./src/zod.ts",
+    "./prisma.js": "./dist/src/prisma.js",
+    "./prisma.ts": "./src/prisma.ts"
+  }
+}

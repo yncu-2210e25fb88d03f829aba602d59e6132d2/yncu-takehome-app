@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "node16",
+    "moduleResolution": "node16",
+    "lib": ["ESNext"],
+    "esModuleInterop": true,
+    "target": "es6",
+    "outDir": "dist",
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true, // Optional, generates source maps for .d.ts files
+    "emitDeclarationOnly": false, // Ensures both .js and .d.ts files are emitted
+    "strict": false
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts"], // Include all .ts and .d.ts files in the src directory
+  "exclude": ["node_modules"]
+}
