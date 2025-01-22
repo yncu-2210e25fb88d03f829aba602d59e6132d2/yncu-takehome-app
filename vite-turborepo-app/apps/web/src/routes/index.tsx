@@ -4,6 +4,7 @@ import { useMsalAuth } from "@repo/react-hooks/useMsalAuth.ts";
 import { useEffect } from "react";
 import { Button } from "@repo/react-ui/components/Button.tsx";
 import { useMutation, useQuery } from "@tanstack/react-query";
+import { env } from "@/env";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -13,7 +14,7 @@ function Index() {
   /**
    * Msal Auth
    */
-  const { account, isLoading, isUnauthenticated } = useMsalAuth();
+  const { account, isLoading, isUnauthenticated, instance: msalInstance } = useMsalAuth();
 
   /**
    * Tanstack Router navigation
@@ -26,7 +27,7 @@ function Index() {
   const examplesQuery = useQuery({
     queryKey: ["examples"],
     queryFn: async () => {
-      const response = await fetch("/api/v1/examples");
+      const response = await fetch(`${env.VITE_PUBLIC_EXPRESS_API_URL}/examples`);
 
       return response.json();
     },
@@ -38,7 +39,7 @@ function Index() {
   const createExampleMutation = useMutation({
     mutationKey: ["examples"],
     mutationFn: async () => {
-      const response = await fetch("/api/v1/examples", {
+      const response = await fetch(`${env.VITE_PUBLIC_EXPRESS_API_URL}/examples`, {
         method: "POST",
       });
 
@@ -89,11 +90,17 @@ function Index() {
    */
   return (
     <Layout>
-      <p>Welcome, {account.name}!</p>
+      <main className="flex h-full w-full flex-col items-center justify-center gap-6 p-20">
+        <p>Welcome, {account.name}!</p>
 
-      <Button onClick={() => createExampleMutation.mutate()}>Create Example</Button>
+        <div className="flex w-full flex-row items-center justify-center gap-2">
+          <Button onClick={() => createExampleMutation.mutate()}>Create Example</Button>
+          <Button onClick={() => examplesQuery.refetch()}>Refetch Examples</Button>
+          <Button onClick={() => msalInstance.logout()}>Sign out</Button>
+        </div>
 
-      <pre>{JSON.stringify(examplesQuery.data, null, 4)}</pre>
+        <pre>{JSON.stringify(examplesQuery.data, null, 4)}</pre>
+      </main>
     </Layout>
   );
 }

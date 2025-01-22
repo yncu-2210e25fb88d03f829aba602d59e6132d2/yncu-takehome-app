@@ -1,6 +1,6 @@
 import { prisma } from "@/lib/clients/prisma.js";
 import { Prisma } from "@repo/pkg-azure-database/prisma.js";
-import { partialParse } from "@repo/pkg-utils/zod/index.js";
+import { partialParse } from "@repo/pkg-utils/zod.js";
 import { ExampleSchema } from "@repo/pkg-azure-database/zod.js";
 
 const selectQuery: Readonly<Prisma.ExampleSelect> = {

@@ -1,4 +1,4 @@
-# YNCU Turborepo Example
+# Turborepo Example
 
 ## 1. Getting Started
 
@@ -23,9 +23,11 @@ pnpm dev:web
 ## 2. What's Included?
 
 - Node + Express API: `/apps/api` with the following
+
   - Example API routes
 
 - React + Vite Frontend: `/apps/web` with the following
+
   - Tanstack Router
   - Tanstack Query Example
   - MSAL Auth

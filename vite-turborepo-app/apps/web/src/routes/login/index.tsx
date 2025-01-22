@@ -54,7 +54,7 @@ function Index() {
     <div className="font-montserrat flex h-full min-h-screen w-screen flex-col items-center justify-center gap-6 p-12">
       <div className="flex flex-col items-center justify-center gap-2">
         <h2 className="text-center text-xl font-bold tracking-tight sm:text-2xl">
-          Welcome to YNCU
+          Welcome!
         </h2>
         <p className="text-muted-foreground text-center text-sm">
           Please sign in to continue
